@@ -1,0 +1,38 @@
+# サインイン画面(allauthの機能で不要の可能性有)
+    - user_nameまたはemailを入力
+    - passwordを入力
+    - ボタン
+
+# サインアップ画面1_webから(allauthの機能で不要の可能性有)
+    - emailを入力
+    - ボタン
+
+# サインアップ画面2_mailから(allauthの機能で不要の可能性有)
+    - user_nameを入力
+    - passwordを入力
+    - ボタン
+
+# 顔画像一覧
+    - 登録されたレコードを表示
+        - user_name
+        - image
+        - created_at
+        - 編集ボタン
+        - チェックボックス
+    - 削除ボタン(チェックボックスを)
+    - 新規登録ボタン
+    - 認識モデル更新ボタン,最終実行日
+
+# 新規登録画面
+    - user_nameを入力
+    - imageを入力
+    - 登録ボタン
+
+# 編集画面
+    - user_nameを入力
+    - imageを入力
+    - 登録ボタン
+
+# 顔認識画面
+    - imageを入力
+    - user_nameを表示

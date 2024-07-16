@@ -1,0 +1,26 @@
+# users
+    - id(primary)
+    - name
+    - email
+    - password(hash)
+    - updated_at
+    - created_at(timestamp)
+
+# pre_users(allauthの機能で不要の可能性有)
+    - id(primary)
+    - email
+    - created_at(timestamp)
+
+# faces
+    - id(primary)
+    - user_id(foreign)
+    - name
+    - image
+    - created_at(timestamp)
+
+# features
+    - id(primary)
+    - user_id(foreign)
+    - model_name
+    - model_data
+    - created_at(timestamp)
