@@ -25,7 +25,7 @@ class UserManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-class User(AbstractBaseUser):
+class Users(AbstractBaseUser):
     email = models.EmailField(verbose_name='メールアドレス', max_length=255, unique=True)
     name = models.CharField(verbose_name='名前', max_length=100)
     is_active = models.BooleanField(default=True)

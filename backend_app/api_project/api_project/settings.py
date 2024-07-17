@@ -51,8 +51,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'rest_framework',
     'rest_framework.authtoken',
-    'dj_rest_auth',
-    'dj_rest_auth.registration',
+    'rest_auth',
+    'rest_auth.registration',
 ]
 
 MIDDLEWARE = [
@@ -64,6 +64,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'allauth.account.middleware.AccountMiddleware', 
 ]
 
 ROOT_URLCONF = 'api_project.urls'
@@ -172,5 +173,4 @@ DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL')
 
 
 #カスタムユーザー設定
-
 AUTH_USER_MODEL = 'accounts.Users'
