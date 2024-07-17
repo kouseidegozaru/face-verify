@@ -8,8 +8,8 @@ django = "*"
 djangorestframework = "*"
 django-environ = "*"
 django-cors-headers = "*"
-django-allauth = "*"
-django-rest-auth = "*"
+django-allauth = "==0.54.0"
+dj-rest-auth = "*"
 
 [dev-packages]
 
